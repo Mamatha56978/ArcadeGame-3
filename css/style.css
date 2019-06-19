@@ -1,0 +1,12 @@
+body {
+  text-align: center;
+}
+
+#img3, #img2, #img4, #img5 {
+  opacity: 0.5;
+}
+
+.score {
+  font-family: cursive;
+  font-weight: bold;
+}
