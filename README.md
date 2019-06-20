@@ -49,7 +49,7 @@ This repository is the starter code for _all_ Udacity students. Therefore, we mo
 16. If his score increases for two times then the player character changes.
 17. If the player touches the bug for 30 times, he will get an alert to start his game again and he will loose all his score. To intimate this to player I have used an `alert()` function.
 
-## How to play the game locally ?
+## How to play the arcade game locally ?
 1. Please open the root file(`index.html`) with your favorite browser.
 2. Run the player using arrow keys from the keyboard(`left`, `right`, `up`, `down`)
 3. Make the player to touch the water block without touching the enemies(bugs)
