@@ -25,15 +25,21 @@ This repository is the starter code for _all_ Udacity students. Therefore, we mo
 
 1. I had downloaded the skeleton of the project from the GitHub link which was given by the Udacity https://github.com/udacity/frontend-nanodegree-arcade-game.
 2. Then I extracted the downloaded zip file from which I came to understand that many modifications would happen in `app.js`.
-3. After that I have rectified few errors from which I got the canvas.
-4. Then I got the bugs and player by rectifying few more errors.
-5. After that I have created a class called `Fighter` with functions `update` and `render` and fixed the position of the player.
-6. Then I provided the definition for the `handleInput` function for the moment of the player.
-7. After that I have adjusted the bugs initial position by providing the values in the array called `allEnemies[]`.
-8. Then I provided the code for the moment of bugs with random speed using `Math.random()` function.
-9. If the player touches the bug, he will come to initial position.
-10. If the player touches the bug for 30 times, he will get an alert to start his game again and he will loose all his score.
-11. I have used `alert()` function to give an alert for the player.
-12. To give the score for the player, I have used `span` tag.
-13. If his score increases for two times then the player character changes.
-14. If the player reaches the water block without touching the bugs then he will gain a point.
+3. After that I had found an empty page with few errors in the console.
+4. Then I rectified them with `allEnemies[]` and `Fighter` class with functions called `update()` and `render()` and fixed the position of the player.
+5. Then I provided the definition for the `handleInput()` function for the movement of the player.
+6. render() function is for placing the sprite position on the canvas.
+7. update() function is for updating the player position.
+8. handleInput() function is used to handle the inputs provided by the user.
+9. The inputs are:
+   left arrow : It is used for moving the player towards the left side on x-axis. This key will not work if the player moves towards the               left most place
+   right arrow : It is used for moving the player towards the right side on x-axis. This key will not work if the player moves towards                  the right most place
+   up arrow   : It is used for moving the player upward direction on y-axis. If the player moves towards the top most place he will come                 back to initial position.
+   down arrow : It is used for moving the player downward direction  on y-axis. This key will not work if the player moves to the down                   most place
+
+10. Then I provided the code for the moment of bugs with random speed using `Math.random()` function.
+11. If the player reaches the water block by using arrow keys, he will gain one point.
+12. If the player touches the bug, he will come to initial position.
+13. If the player touches the bug for 30 times, he will get an alert to start his game again and he will loose all his score. To intimate this to player I have used an `alert()` function.
+14. To give the score for the player, I have used `span` tag.
+15. If his score increases for two times then the player character changes.
