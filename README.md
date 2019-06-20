@@ -32,10 +32,10 @@ This repository is the starter code for _all_ Udacity students. Therefore, we mo
 7. update() function is for updating the player position.
 8. handleInput() function is used to handle the inputs provided by the user.
 9. The inputs are:
-   left arrow : It is used for moving the player towards the left side on x-axis. This key will not work if the player moves towards the               left most place
-   right arrow : It is used for moving the player towards the right side on x-axis. This key will not work if the player moves towards                  the right most place
-   up arrow   : It is used for moving the player upward direction on y-axis. If the player moves towards the top most place he will come                 back to initial position.
-   down arrow : It is used for moving the player downward direction  on y-axis. This key will not work if the player moves to the down                   most place
+   + left arrow : It is used for moving the player towards the left side on x-axis. This key will not work if the player moves towards                    the left most place
+   + right arrow : It is used for moving the player towards the right side on x-axis. This key will not work if the player moves towards                  the right most place
+   + up arrow   : It is used for moving the player upward direction on y-axis. If the player moves towards the top most place he will                    come  back to initial position.
+   + down arrow : It is used for moving the player downward direction  on y-axis. This key will not work if the player moves to the down                   most place
 
 10. Then I provided the code for the moment of bugs with random speed using `Math.random()` function.
 11. If the player reaches the water block by using arrow keys, he will gain one point.
